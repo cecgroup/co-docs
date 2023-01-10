@@ -1,6 +1,6 @@
 {
-    "index_name": "vision-index", 
-    "start_urls": ["https://cecgroup.github.io/vision/"], 
+    "index_name": "co-docs-index", 
+    "start_urls": ["https://cecgroup.github.io/co-docs/"], 
     "rateLimit": 8,
     "maxDepth": 10,
     "selectors": {

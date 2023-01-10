@@ -1,7 +1,7 @@
 export default {
-    title: '工一数智',
+    title: '云办公',
     description: 'CEC',
-    base: '/vision/',
+    base: '/co-docs/',
 
     lastUpdated: true,
     // outlineTitle: '大纲',
@@ -17,53 +17,53 @@ export default {
         algolia: {
             appId: 'N26XKP71HQ', // 需要替换
             apiKey: 'b68973e86f1cea6fe107eecb587b3d40', // 需要替换
-            indexName: 'vision-index', // 需要替换
+            indexName: 'co-docs-index', // 需要替换
             placeholder: '请输入关键词',
             buttonText: '搜索'
         },
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/cecgroup/vision' },
+            { icon: 'github', link: 'https://github.com/cecgroup/co-docs' },
         ],
 
         nav: [
-            { text: '工一数智', link: '/cec' }
-            // {
-            //   text: '工一',
-            //   items: [
-            //     { text: '关于我们', link: '/aboutus' },
-            //     { text: '使命', link: '/mission' },
-            //     { text: '愿景', link: '/vision' }
-            //   ]
-            // }
+            // { text: '工一数智', link: '/cec' }
+            {
+              text: '版本',
+              items: [
+                { text: 'v1.0', link: '/index' },
+                // { text: '使命', link: '/mission' },
+                // { text: '愿景', link: '/vision' }
+              ]
+            }
           ],
 
           sidebar: [
             {
-                text: '工一数智',
+                text: '文档',
                 items: [
-                  { text: '关于我们', link: '/index#关于我们' },
-                  { text: '我们的使命', link: '/index#我们的使命' },
-                  { text: '我们的愿景', link: '/index#我们的愿景' },
+                  { text: '快速开始', link: '/index' },
+                  // { text: '快速开始', link: '/index#快速开始' },
+                  // { text: '设置', link: '/index#设置' },
                 ]
               },
-            {
-              text: '我的思考',
-              items: [
-                { text: '前言', link: '/consideration#前言' },
-                { text: '想清楚', link: '/consideration#想清楚' },
-                { text: '说明白', link: '/consideration#说明白' },
-              ]
-            },
-            {
-              text: '我的提案',
-              items: [
-                { text: '分阶段目标', link: '/plan#分阶段目标' },
-                { text: '整体数字化方案', link: '/plan#整体数字化方案' },
-                { text: '具体实施', link: '/plan#具体实施' },
+            // {
+            //   text: '我的思考',
+            //   items: [
+            //     { text: '前言', link: '/consideration#前言' },
+            //     { text: '想清楚', link: '/consideration#想清楚' },
+            //     { text: '说明白', link: '/consideration#说明白' },
+            //   ]
+            // },
+            // {
+            //   text: '我的提案',
+            //   items: [
+            //     { text: '分阶段目标', link: '/plan#分阶段目标' },
+            //     { text: '整体数字化方案', link: '/plan#整体数字化方案' },
+            //     { text: '具体实施', link: '/plan#具体实施' },
 
-              ]
-            },
+            //   ]
+            // },
             // {
             //     text: 'BP',
             //     items: [
@@ -77,7 +77,7 @@ export default {
         // sidebar: getSideBar("./docs"),
 
         editLink: {
-        pattern: 'https://github.com/cecgroup/vision/edit/main/docs/:path',
+        pattern: 'https://github.com/cecgroup/co-docs/edit/main/docs/:path',
         text: 'Edit this page on GitHub'
         },
         //   footer: {
