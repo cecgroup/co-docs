@@ -1,56 +1,62 @@
 # 快速开始
 ## 简介
-&emsp;&emsp;涛勰云是涛勰科技自主研发的云教学云办公解决方案，底座采用全自主研发，上层基于微软云桌面。支持包含电脑、手机、平板、树莓派、瘦客户机等全终端设备，同时支持APP客户端、IE浏览器、H5浏览器、订阅等多种方式进行访问。
+&emsp;&emsp;工一云电脑是涛勰科技自主研发的云教学云办公解决方案，底座采用自主研发，上层基于微软云桌面。支持包含电脑、手机、平板、树莓派、瘦客户机、微型电脑等全终端设备，同时支持APP客户端、H5浏览器、IE浏览器、订阅等多种方式进行访问。
 
-# 第一步
+## 各系统+设备推荐的访问方式
+* Windows+台式/笔记本/微型电脑：浏览器、IE浏览器、订阅
+* Andriod/HarmonyOS/iOS+手机：APP客户端
+* Andriod/HarmonyOS/iPadOS/macOS/ChromeOS+平板/一体机/笔记本：APP客户端、浏览器
+* Linux Desktop(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：浏览器
+* Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：特殊程序
+* ThinOS(Dell, HP...)+瘦客户端：特殊程序
 
-## 各终端支持访问方式
-* Windows电脑终端：IE浏览器，订阅，APP客户端
-* MAC电脑终端：APP客户端
-* 手机终端：APP客户端
-* 平板终端：APP客户端
-* 树莓派/瘦客户机终端：嵌入式系统
-* H5浏览器本身可以作为独立终端，所以以上设备终端也均支持H5浏览器的方式进行访问
+## 各种操作系统对应的APP客户端下载
+* [Andriod](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1)
+  * [Andriod最新版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)
+  * [Andriod旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
+  * [Andriod 9.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod9.0.apk)
+  * [Andriod 8.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod8.0.apk)
+  * [Andriod 7.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod7.0.apk)
+  * [Andriod 6.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod6.0.apk)
+  * [Andriod 4.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod4.0.apk)
+* [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
+* [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
+* [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
+* [ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1)
 
-## IE浏览器（Windows电脑终端）
+
+## APP客户端
+&emsp;&emsp;适合支持安装APP客户端的系统。
+&emsp;&emsp;不同终端系统的APP客户端不同，但操作大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
+1. 下载安装好APP后，打开应用，点击右上角的加号，选择“添加工作区”，输入demo@cec.cc（个人账号） 或者 https://tx.cec.cc ，用户账户点击下拉选择“添加用户账户”，输入个人账号demo@cec.cc和个人密码并点击保存；
+2. 然后点击右上角的“下一步”，等待加载一两秒钟，点击“工作区”，此时会显示所有的应用程序和桌面资源；
+3. 点击桌面或应用会弹出一个连接选项框，点击“连接”；
+4. 进入桌面或应用后，顶部会出现一个鼠标键盘选项，移动端的鼠标操作分触屏模式和鼠标模式，根据习惯选择对应的模式即可。
+
+## 浏览器
+&emsp;&emsp;适用于所有安装有H5浏览器的系统，但更建议手机通过APP客户端访问。
+&emsp;&emsp;目前主流的浏览器都支持Html5：360、Edge、Opera、Chrome、Safari、Firefox浏览器等。
+1. H5浏览器只需输入https://tx.cec.cc ，后端会自动识别转向H5站点，即https://tx.cec.cc/rdweb/webclient ；
+2. 登陆到资源页面可就以访问远程应用和桌面了，部分应用不能支持，可以采用登陆桌面方式进行访问；如果要输入中文，需要点击右上角“设置”按钮，注意切换语言略有不同（单键Shift）；
+3. 点击进入远程应用或桌面，图为H5浏览器的嵌入式访问效果。
+
+## IE浏览器
+&emsp;&emsp;适用于具有IE浏览器的windows系统。
 &emsp;&emsp;Windows终端可以通过IE浏览器访问，实际是系统自带了“远程桌面连接”APP客户端工具，通过浏览器调用工具打开远程应用或桌面。
 
 &emsp;&emsp;注意：WinXP和Win7在非局域网环境下并不支持IE浏览器方式访问，请参照H5浏览器。
 
-1. 打开IE浏览器，地址栏输入https://tx.cec.cc，后端会自动识别转向H4站点，即https://tx.cec.cc/rdweb/pages/，输入用户名和密码进行登录。点击应用或桌面图标即可使用；
+1. 打开IE浏览器，地址栏输入https://tx.cec.cc ，后端会自动识别转向H4站点，即https://tx.cec.cc/rdweb/pages/ ，输入用户名和密码进行登录。点击应用或桌面图标即可使用；
 2. 首次登录会提示保存密码，点击“是”，方便下次登陆；
 3. 首次登录还会提示是否运行加载项，点击“允许”，可以实现更佳访问云应用和云桌面体验；
 4. 非同域中电脑首次打开会提示信任发布者提示，勾选“不再询问我是否从此发布者进行远程连接”，可获得更佳的单点访问体验。
 
-## H5浏览器（全终端）
-&emsp;&emsp;目前主流的浏览器都支持Html5：360浏览器、Edge、Opera、Chrome、Safari、Firefox等。
-1. H5浏览器只需输入https://tx.cec.cc，后端会自动识别转向H5站点，即https://tx.cec.cc/rdweb/webclient；
-2. 登陆到资源页面可就以访问远程应用和桌面了，部分应用不能支持，可以采用登陆桌面方式进行访问；如果要输入中文，需要点击右上角“设置”按钮，注意切换语言略有不同（单键Shift）；
-3. 点击进入远程应用或桌面，图为H5浏览器的嵌入式访问效果。
 
-
-## 订阅（Windows电脑终端）
+## 订阅
+&emsp;&emsp;适用于windows系统。
 1. 控制面板打开RemoteApp与桌面连接。
-2. 按照向导输入URL地址：https://tx.cec.cc 或者 demo@cec.cc（个人账号）；
+2. 按照向导输入URL地址：demo@cec.cc（个人账号）或者 https://tx.cec.cc ；
 3. 最后就可在开始程序菜单直接访问远程应用和桌面。
 
-
-## APP客户端（手机终端、平板终端、MAC电脑终端、Windows电脑终端）
-&emsp;&emsp;不同终端系统的APP客户端不同，但大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
-* [Andrid（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod.apk)
-* [旧版Andrid（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
-* [HarmonyOS（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
-* [iOS（iPhone/iPad）](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
-* [macOS（MAC）](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
-* Windows/WP（电脑终端/移动终）：系统自带“远程桌面连接”APP客户端，无需下载
-
-1. 下载安装好APP后，打开应用，点击右上角的加号，选择“Remote Resource Feed”，Feed URL输入https://tx.cec.cc 或者 demo@cec.cc（个人账号），添加个人用户名和密码并保存；
-2. 然后直接点击应用或桌面，下图2展示了手机打开CAD2020的效果；
-3. 移动端的鼠标分Touch和Mouse pointer操作，具体可参照下图。
-
-
-## 嵌入式系统（树莓派/瘦客户机终端）
-&emsp;&emsp;树莓派/瘦客户机终端的嵌入式系统比较复杂，不适合普通用户，主要针对嵌入开发爱好者，这里只做个简单展示。
-
-1. 左图为树莓派接4K电视屏幕的效果图，手机拍摄颜色失真，实际动静态4K效果都非常不错；当然支持任何电脑显示器，是传统PC台式机的最佳替代品；
-2. 右图为实际树莓派，比一般手机还小，麻雀虽小，五脏俱全。
+## 特殊程序
+&emsp;&emsp;一般适用于非桌面系统或者定制thinos。普通用户接触较少。
