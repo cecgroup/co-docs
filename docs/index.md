@@ -37,9 +37,11 @@
 
 ## APP客户端（手机终端、平板终端、MAC电脑终端、Windows电脑终端）
 &emsp;&emsp;不同终端系统的APP客户端不同，但大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
-* [macOS（MAC）](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
-* [Andrid（Andriod手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod.apk)
+* [Andrid（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod.apk)
+* [旧版Andrid（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
+* [HarmonyOS（手机或平板）](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
 * [iOS（iPhone/iPad）](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
+* [macOS（MAC）](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
 * Windows/WP（电脑终端/移动终）：系统自带“远程桌面连接”APP客户端，无需下载
 
 1. 下载安装好APP后，打开应用，点击右上角的加号，选择“Remote Resource Feed”，Feed URL输入https://tx.cec.cc 或者 demo@cec.cc（个人账号），添加个人用户名和密码并保存；
