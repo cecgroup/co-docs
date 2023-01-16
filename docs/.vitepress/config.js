@@ -1,5 +1,5 @@
 export default {
-    title: '涛勰云',
+    title: '工一云电脑',
     description: 'CEC',
     base: '/co-docs/',
 
