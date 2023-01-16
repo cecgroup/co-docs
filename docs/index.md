@@ -6,13 +6,13 @@
 &emsp;&emsp;总体说来，支持APP的首先推荐APP访问，其次是浏览器访问；临时性访问推荐直接浏览器访问。
 |操作系统       |台式/一体机/笔记本/微型电脑/虚拟机|平板      |手机|单片机  |零瘦客户端|
 |---------------|--------------------------------|----------|----|-------|---------|
-|Windows        |APP,浏览器,订阅,IE浏览器       |同左      |   |          |       |
-|Andriod        |                                |APP,浏览器|APP|        |       |
+|Windows        |APP, 浏览器, 订阅, IE浏览器       |同左      |   |          |       |
+|Andriod        |                                |APP, 浏览器|APP|        |       |
 |iOS            |                                |          |APP|        |       |
-|iPadOS         |                                |APP,浏览器|   |        |       |
-|macOS          |APP,浏览器                    |          |   |        |       |
-|ChromeOS       |                                |APP,浏览器|APP|        |       |
-|HarmonyOS      |                                |APP,浏览器|APP|        |       |
+|iPadOS         |                                |APP, 浏览器|   |        |       |
+|macOS          |APP, 浏览器                    |          |   |        |       |
+|ChromeOS       |                                |APP, 浏览器|APP|        |       |
+|HarmonyOS      |                                |APP, 浏览器|APP|        |       |
 |WinPhoneOS     |                                |          |APP|        |       |
 |RaspBerryOS    |                                |          |   |特殊程序|       |
 |ThinOS         |                                |           |  |       |特殊程序|
