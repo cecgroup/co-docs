@@ -31,8 +31,8 @@ export default {
             {
               text: '版本',
               items: [
-                { text: 'v1.0', link: '/index' },
-                // { text: '使命', link: '/mission' },
+                { text: 'v1.8', link: '/index' },
+                { text: 'v1.9', link: '/index' },
                 // { text: '愿景', link: '/vision' }
               ]
             }
@@ -43,7 +43,7 @@ export default {
                 text: '文档',
                 items: [
                   { text: '快速开始', link: '/index' },
-                  // { text: '快速开始', link: '/index#快速开始' },
+                  { text: 'APP下载', link: '/index#APP' },
                   // { text: '设置', link: '/index#设置' },
                 ]
               },
