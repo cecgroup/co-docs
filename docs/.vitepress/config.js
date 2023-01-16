@@ -43,7 +43,7 @@ export default {
                 text: '文档',
                 items: [
                   { text: '快速开始', link: '/index' },
-                  { text: 'APP下载', link: '/index#APP' },
+                  { text: 'APP下载', link: '/index#APP客户端' },
                   // { text: '设置', link: '/index#设置' },
                 ]
               },
