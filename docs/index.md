@@ -42,6 +42,7 @@
 * [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
 * [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
 * [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
+
 &emsp;&emsp;适合支持安装APP客户端的系统。  
 &emsp;&emsp;不同终端系统的APP客户端不同，但操作大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
 1. 下载安装好APP后，打开应用，点击右上角的加号，选择“添加工作区”，输入demo@cec.cc（个人账号） 或者 https://tx.cec.cc ，用户账户点击下拉选择“添加用户账户”，输入个人账号demo@cec.cc和个人密码并点击保存；
