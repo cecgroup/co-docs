@@ -1,21 +1,22 @@
 # 快速开始
 ## 简介
-&emsp;&emsp;工一云电脑是涛勰科技自主研发的云教学云办公解决方案，底座采用自主研发，上层基于微软云桌面。支持包含电脑、手机、平板、树莓派、瘦客户机、微型电脑等全终端设备，同时支持APP客户端、H5浏览器、IE浏览器、订阅等多种方式进行访问。
+&emsp;&emsp;工一云电脑是涛勰科技自主研发的云教学云办公解决方案，底座采用自主研发，上层基于微软云桌面。支持包含电脑、手机、平板、单片机、零瘦客户机等全终端设备，同时支持APP、浏览器、订阅、IE浏览器等多种方式进行访问。
 
-## 各系统-设备推荐的访问方式
-|设备名称|台式/一体机/笔记本/微型电脑/虚拟机|平板|手机|单片机|零瘦客户端|
-|---------------|------------------------|----|----|-----|----------|
-|Windows        |APP,浏览器,订阅,IE浏览器     | 同左|----|-----|---------|
-|Andriod        |                               |APP,浏览器|APP|-----|---------|
-|iOS            |                               |-----|APP|------|---------|
-|iPadOS         |                               |APP,浏览器|--|---|---------|
-|macOS          |APP,浏览器               |-----|---|------|----------|
-|ChromeOS       |                               |APP,浏览器|APP|---|---------|
-|HarmonyOS      |                              |APP,浏览器|APP|---|---------|
-|RaspBerryOS    |                        |----|----|特殊程序|----------|
-|Linux Desktop  |浏览器                   |浏览器|----|------|----------|
-|Linux Server   |特殊程序                 |-----|----|特殊程序|特殊程序|
-|ThinOS         |                         |-----|----|--------|特殊程序|
+## 各设备-系统推荐的访问方式
+|操作系统       |台式/一体机/笔记本/微型电脑/虚拟机|平板      |手机|单片机  |零瘦客户端|
+|---------------|--------------------------------|          |   |        |       |
+|Windows        |APP,浏览器,订阅,IE浏览器       |同左      |   |        |       |
+|Andriod        |                                |APP,浏览器|APP|        |       |
+|iOS            |                                |          |APP|        |       |
+|iPadOS         |                                |APP,浏览器|   |        |       |
+|macOS          |APP,浏览器                    |          |   |        |       |
+|ChromeOS       |                                |APP,浏览器|APP|        |       |
+|HarmonyOS      |                                |APP,浏览器|APP|        |       |
+|WinPhoneOS     |                                |          |APP|        |       |
+|RaspBerryOS    |                                |          |   |特殊程序|       |
+|ThinOS         |                                |           |  |       |特殊程序|
+|Linux Desktop  |浏览器                          |浏览器     |   |       |       |
+|Linux Server   |特殊程序                        |           |  |特殊程序|特殊程序|
 
 <!-- * Windows+台式/笔记本/微型电脑：浏览器、IE浏览器、订阅
 * Andriod/HarmonyOS/iOS+手机：APP客户端
@@ -24,9 +25,9 @@
 * Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：特殊程序
 * ThinOS(Dell, HP...)+瘦客户端：特殊程序 -->
 
-## 各种操作系统对应的APP客户端下载
+## 各操作系统对应的APP下载
 * [Windows](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.msi)
-* [Andriod](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1)
+* [Andriod/ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1) Google市场，国内请根据如下链接下载
   * [Andriod最新版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)
   * [Andriod旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
   * [Andriod 9.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod9.0.apk)
@@ -37,10 +38,9 @@
 * [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
 * [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
 * [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
-* [ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1)
 
 
-## APP客户端
+## APP
 &emsp;&emsp;适合支持安装APP客户端的系统。
 &emsp;&emsp;不同终端系统的APP客户端不同，但操作大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
 1. 下载安装好APP后，打开应用，点击右上角的加号，选择“添加工作区”，输入demo@cec.cc（个人账号） 或者 https://tx.cec.cc ，用户账户点击下拉选择“添加用户账户”，输入个人账号demo@cec.cc和个人密码并点击保存；
@@ -55,6 +55,13 @@
 2. 登陆到资源页面可就以访问远程应用和桌面了，部分应用不能支持，可以采用登陆桌面方式进行访问；如果要输入中文，需要点击右上角“设置”按钮，注意切换语言略有不同（单键Shift）；
 3. 点击进入远程应用或桌面，图为H5浏览器的嵌入式访问效果。
 
+## 订阅
+&emsp;&emsp;适用于windows系统。
+1. 控制面板打开RemoteApp与桌面连接。
+2. 按照向导输入URL地址：demo@cec.cc（个人账号）或者 https://tx.cec.cc ；
+3. 最后就可在开始程序菜单直接访问远程应用和桌面。
+
+
 ## IE浏览器
 &emsp;&emsp;适用于具有IE浏览器的windows系统。
 &emsp;&emsp;Windows终端可以通过IE浏览器访问，实际是系统自带了“远程桌面连接”APP客户端工具，通过浏览器调用工具打开远程应用或桌面。
@@ -65,13 +72,6 @@
 2. 首次登录会提示保存密码，点击“是”，方便下次登陆；
 3. 首次登录还会提示是否运行加载项，点击“允许”，可以实现更佳访问云应用和云桌面体验；
 4. 非同域中电脑首次打开会提示信任发布者提示，勾选“不再询问我是否从此发布者进行远程连接”，可获得更佳的单点访问体验。
-
-
-## 订阅
-&emsp;&emsp;适用于windows系统。
-1. 控制面板打开RemoteApp与桌面连接。
-2. 按照向导输入URL地址：demo@cec.cc（个人账号）或者 https://tx.cec.cc ；
-3. 最后就可在开始程序菜单直接访问远程应用和桌面。
 
 ## 特殊程序
 &emsp;&emsp;一般适用于非桌面系统或者定制thinos。普通用户接触较少。
