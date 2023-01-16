@@ -27,7 +27,7 @@
 * Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：特殊程序
 * ThinOS(Dell, HP...)+瘦客户端：特殊程序 -->
 
-## APP
+## APP客户端
 ### APP下载链接
 * [Windows](https://apps.microsoft.com/store/detail/microsoft-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/9WZDNCRFJ3PS) 注：此链接为Microsoft市场，国内用户下载链接如下
   * [Windows](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.msi)
