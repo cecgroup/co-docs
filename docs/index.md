@@ -2,7 +2,7 @@
 ## 简介
 &emsp;&emsp;工一云电脑是涛勰科技自主研发的一整套云教学、云办公的解决方案。底座采用自主研发，上层基于主流的微软云桌面，是通过多年的探索研发与国内教学办公最佳实践的集大成产品。支持包含各种电脑、手机、平板、单片机、零瘦客户机等全终端设备，同时支持APP、浏览器、订阅、IE浏览器等多种方式进行访问。
 
-## 设备-系统推荐的访问方式
+## 推荐的访问方式
 &emsp;&emsp;总体说来，支持APP的首先推荐APP访问，其次是浏览器访问；临时性访问推荐直接浏览器访问。
 |操作系统       |台式/一体机/笔记本/微型电脑/虚拟机|平板      |手机|单片机  |零瘦客户端|
 |---------------|--------------------------------|----------|----|-------|---------|
@@ -26,7 +26,8 @@
 * Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：特殊程序
 * ThinOS(Dell, HP...)+瘦客户端：特殊程序 -->
 
-## 各操作系统对应的APP下载
+## APP
+### APP下载链接
 * [Windows](https://apps.microsoft.com/store/detail/microsoft-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/9WZDNCRFJ3PS) 注：此链接为Microsoft市场，国内用户下载链接如下
   * [Windows](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.msi)
 * [Andriod/ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1) 注：此链接为Google市场，国内用户下载链接如下
@@ -40,9 +41,6 @@
 * [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
 * [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
 * [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
-
-
-## APP
 &emsp;&emsp;适合支持安装APP客户端的系统。
 &emsp;&emsp;不同终端系统的APP客户端不同，但操作大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
 1. 下载安装好APP后，打开应用，点击右上角的加号，选择“添加工作区”，输入demo@cec.cc（个人账号） 或者 https://tx.cec.cc ，用户账户点击下拉选择“添加用户账户”，输入个人账号demo@cec.cc和个人密码并点击保存；
