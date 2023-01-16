@@ -2,7 +2,21 @@
 ## 简介
 &emsp;&emsp;工一云电脑是涛勰科技自主研发的云教学云办公解决方案，底座采用自主研发，上层基于微软云桌面。支持包含电脑、手机、平板、树莓派、瘦客户机、微型电脑等全终端设备，同时支持APP客户端、H5浏览器、IE浏览器、订阅等多种方式进行访问。
 
-## 各系统+设备推荐的访问方式
+## 各系统-设备推荐的访问方式
+|设备名称|台式|笔记本|微型电脑|平板|手机|单片机|零瘦客户端|虚拟机|
+|-------|----|-----|--------|----|----|-----|----------|------|
+|Windows  |
+|Andriod  |
+|iOS      |
+|iPadOS   |
+|macOS    |
+|ChromeOS |
+|HarmonyOS|
+|RaspBerryOS|
+|Linux Desktop|
+|Linux Server|
+|ThinOS|
+
 * Windows+台式/笔记本/微型电脑：浏览器、IE浏览器、订阅
 * Andriod/HarmonyOS/iOS+手机：APP客户端
 * Andriod/HarmonyOS/iPadOS/macOS/ChromeOS+平板/一体机/笔记本：APP客户端、浏览器
@@ -11,6 +25,7 @@
 * ThinOS(Dell, HP...)+瘦客户端：特殊程序
 
 ## 各种操作系统对应的APP客户端下载
+* [Windows](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.msi)
 * [Andriod](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1)
   * [Andriod最新版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)
   * [Andriod旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
