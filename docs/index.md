@@ -30,14 +30,15 @@
 ## APP客户端
 ### APP下载链接
 * [Windows](https://apps.microsoft.com/store/detail/microsoft-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/9WZDNCRFJ3PS) 注：此链接为Microsoft市场，国内用户下载链接如下
-  * [Windows](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.msi)
+  * [Windows 11](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.AppxBundle)
+  * [Windows 10](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.zip)
 * [Andriod/ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1) 注：此链接为Google市场，国内用户下载链接如下
   * [Andriod最新版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)
-  * [Andriod旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
   * [Andriod 9.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod9.0.apk)
   * [Andriod 8.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod8.0.apk)
   * [Andriod 7.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod7.0.apk)
   * [Andriod 6.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod6.0.apk)
+  * [Andriod 6.0+旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
   * [Andriod 4.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod4.0.apk)
 * [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)
 * [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
