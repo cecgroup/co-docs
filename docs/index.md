@@ -1,11 +1,5 @@
 # 快速开始
-## 简介
-&emsp;&emsp;工一云电脑是涛勰科技自主研发的一整套云教学、云办公的解决方案，是面向未来的下一代教学与办公产品。底座采用自主研发，上层基于主流的微软桌面，是通过多年探索研发的AnyTime、AnyWhere、AnyDevice的云上教学办公的集大成产品。
-
-&emsp;&emsp;工一云电脑企业版：办公不再依赖于传统孤立的PC电脑，而是将办公的计算、储存、网络资源全部集中于私有云或者混合云中；通过后端的云管理系统进行集中管理与资源分配；管理员进行系统软件的集中安装与分配，云电脑开箱即用；可以轻松实现员工内部的数据协同；提供员工一致性的电脑体验，即办公室、回家、出差都能访问同一个云电脑进行高效办公。
-
 &emsp;&emsp;工一云电脑支持各种电脑、平板、手机、智能电视、单片机、零瘦客户机等全终端设备，同时支持APP、浏览器、订阅、IE浏览器、特殊程序多种方式进行访问。
-
 
 
 
@@ -35,21 +29,7 @@
 * ThinOS(Dell, HP...)+瘦客户端：特殊程序 -->
 
 ## APP
-### APP客户端下载链接
-* [Windows](https://apps.microsoft.com/store/detail/microsoft-%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/9WZDNCRFJ3PS) 注：此链接为Microsoft市场，国内用户如果无法下载，请点击以下链接下载
-  * [Windows 11](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.AppxBundle)
-  * [Windows 10](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Windows.zip)
-* [Andriod/ChromeOS](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1) 注：此链接为Google市场，国内用户请点击以下链接下载
-  * [Andriod最新版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)
-  * [Andriod 9.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod9.0.apk)
-  * [Andriod 8.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod8.0.apk)
-  * [Andriod 7.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod7.0.apk)
-  * [Andriod 6.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod6.0.apk)
-  * [Andriod 6.0+旧版兼容版](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Old.apk)
-  * [Andriod 4.0+](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod4.0.apk)
-* [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)注：如果此应用不兼容，可以下载上面Andriod的老版本依次测试
-* [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
-* [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
+[下载APP客户端](/download)
 
 &emsp;&emsp;适合支持安装APP客户端的系统。  
 &emsp;&emsp;不同终端系统的APP客户端不同，但操作大同小异，本示例以Andriod手机为例。首先根据系统点击以下对应的链接进行下载安装；
