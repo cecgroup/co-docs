@@ -1,7 +1,7 @@
 # 快速开始
-&emsp;&emsp;工一云电脑是一种基于私有云和混合云的一系列服务，需要通过一种终端设备进行连接访问。
+&emsp;&emsp;工一云电脑是一种基于私有云和混合云的一种服务，需要通过某种可视化终端设备进行连接访问。
 
-&emsp;&emsp;支持的设备及系统涵盖各种电脑、平板、手机、智能电视、单片机、零瘦客户机等终端设备，同时支持Windows、Andriod、iOS、iPadOS、macOS，ChromeOS、HarmonyOS、WinPhoneOS、RaspBerryOS、ThinOS、Linux Desktop、Linux Server几乎所有的主流操作系统。连接的方式也包含APP、浏览器、订阅、IE浏览器、特殊程序等。
+&emsp;&emsp;支持各种电脑、平板、手机、智能电视、单片机、零瘦客户机等终端设备，同时支持Windows、Andriod、iOS、iPadOS、macOS，ChromeOS、HarmonyOS、WinPhoneOS、RaspBerryOS、ThinOS、Linux Desktop、Linux Server几乎所有的主流操作系统。连接的方式也包含APP、浏览器、订阅、IE浏览器、特殊程序等多种连接方式。
 
 
 ### 使用方法
