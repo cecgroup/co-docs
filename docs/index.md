@@ -1,7 +1,7 @@
 # 快速开始
 &emsp;&emsp;工一云电脑是一种基于私有云和混合云的一种服务，需要通过某种可视化终端设备进行连接访问。
 
-&emsp;&emsp;支持各种电脑、平板、手机、智能电视、单片机、零瘦客户机等终端设备，同时支持Windows、Andriod、iOS、iPadOS、macOS，ChromeOS、HarmonyOS、WinPhoneOS、RaspBerryOS、ThinOS、Linux Desktop、Linux Server几乎所有的主流操作系统。连接的方式也包含APP、浏览器、订阅、IE浏览器、特殊程序等多种连接方式。
+&emsp;&emsp;支持各种电脑、平板、手机、智能电视、单片机、零瘦客户机等终端设备，同时支持Windows、Andriod、iOS、iPadOS、macOS，ChromeOS、HarmonyOS、WinPhoneOS、RaspBerryOS、ThinOS、Linux Desktop、Linux Server几乎所有的主流操作系统。连接的方式也包含APP、浏览器、订阅、IE浏览器、定制程序等多种连接方式。
 
 
 ### 使用方法
@@ -23,17 +23,17 @@
 |ChromeOS       |                                |APP, 浏览器|APP|        |        |       |
 |HarmonyOS      |                                |APP, 浏览器|APP|        |        |       |
 |WinPhoneOS     |                                |          |APP|         |        |       |
-|RaspBerryOS    |                                |          |   |         |特殊程序|       |
-|ThinOS         |                                |           |  |         |       |特殊程序|
+|RaspBerryOS    |                                |          |   |         |定制程序|       |
+|ThinOS         |                                |           |  |         |       |定制程序|
 |Linux Desktop  |浏览器                          |浏览器     |   |         |       |       |
-|Linux Server   |特殊程序                        |           |  |         |特殊程序|特殊程序|
+|Linux Server   |定制程序                        |           |  |         |定制程序|定制程序|
 
 <!-- * Windows+台式/笔记本/微型电脑：浏览器、IE浏览器、订阅
 * Andriod/HarmonyOS/iOS+手机：APP客户端
 * Andriod/HarmonyOS/iPadOS/macOS/ChromeOS+平板/一体机/笔记本：APP客户端、浏览器
 * Linux Desktop(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：浏览器
-* Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：特殊程序
-* ThinOS(Dell, HP...)+瘦客户端：特殊程序 -->
+* Linux Server(RaspBerryOS, Ubuntu, Debian, Centos, Redhat...)+单片机/虚拟机/台式/笔记本/微型电脑：定制程序
+* ThinOS(Dell, HP...)+瘦客户端：定制程序 -->
 
 ## 连接方式1: APP
 &emsp;&emsp;适合支持安装APP客户端的系统。  
@@ -67,7 +67,7 @@
 3. 首次登录还会提示是否运行加载项，点击“允许”，可以实现更佳访问云应用和云桌面体验；
 4. 非同域中电脑首次打开会提示信任发布者提示，勾选“不再询问我是否从此发布者进行远程连接”，可获得更佳的单点访问体验。
 
-## 连接方式5: 特殊程序
+## 连接方式5: 定制程序
 &emsp;&emsp;一般适用于非桌面系统或者定制thinos。普通用户一般无需关注。
 
 
