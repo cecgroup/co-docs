@@ -44,7 +44,7 @@ export default {
                 items: [
                   { text: '简介', link: '/introduction' },
                   { text: '快速开始', link: '/index#快速开始' },
-                  { text: 'APP下载', link: '/index#app' },
+                  { text: 'APP下载', link: '/download' },
                   // { text: '设置', link: '/index#设置' },
                 ]
               },
