@@ -52,8 +52,8 @@
 
 ## 连接方式3: 订阅
 &emsp;&emsp;仅适用于windows桌面系统。  
-1. 控制面板打开RemoteApp与桌面连接。
-2. 按照向导输入URL地址，外网输入`https://tx2.cec.cc:88`，内网输入`https://tx.cec.cc`，；
+1. 控制面板打开RemoteApp与桌面连接；
+2. 按照向导输入URL地址，外网输入`https://tx2.cec.cc:88`，内网输入`https://tx.cec.cc`；
 3. 最后就可在开始程序菜单直接访问远程应用和桌面。
 
 
