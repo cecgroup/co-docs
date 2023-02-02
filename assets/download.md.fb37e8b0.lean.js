@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,a as t}from"./app.5f5e8a2c.js";const k=JSON.parse('{"title":"APP下载","description":"","frontmatter":{},"headers":[],"relativePath":"download.md","lastUpdated":1675335853000}'),a={name:"download.md"},s=t("",2),l=[s];function d(i,n,c,_,p,f){return o(),r("div",null,l)}const m=e(a,[["render",d]]);export{k as __pageData,m as default};
