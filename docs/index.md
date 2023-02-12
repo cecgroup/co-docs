@@ -1,5 +1,5 @@
 # 快速开始
-&emsp;&emsp;工一云电脑是一种定制融合云产品与服务，是面向未来的AnyTime、AnyWhere、AnyDevice的一致性云办公与教学云解决方案。工一云电脑底座采用自主研发，上层基于主流的微软桌面，它不是简单的云桌面，而是云+电脑+云盘+项目管理+软件+3D优化+终端优化等一系列功能集大成后的定制产品与服务。
+&emsp;&emsp;工一云电脑是一种定制融合云产品及服务，是面向未来的AnyTime、AnyWhere、AnyDevice的一致性云办公与云教学解决方案。工一云电脑底座采用自主研发，上层基于主流的微软桌面，它不是简单的云桌面，而是云底座+自研融合云管理系统+电脑+云盘+项目管理+软件+3D支持与调优+终端优化等一系列功能集大成后的定制产品及服务。
 
 &emsp;&emsp;支持各种电脑、平板、手机、智能电视、单片机、零瘦客户机等终端设备，同时支持Windows、Andriod、iOS、iPadOS、macOS，ChromeOS、HarmonyOS、WinPhoneOS、RaspBerryOS、ThinOS、Linux Desktop、Linux Server几乎所有的主流操作系统。连接的方式也包含APP、浏览器、订阅、IE浏览器、定制程序等多种连接方式。
 
