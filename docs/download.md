@@ -14,5 +14,5 @@
 * [MIUI](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod_Latest.apk)注：如果此应用不兼容，可以下载上面Andriod的版本依次测试
 * [MIUI TV](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_Andriod4.0.apk)注：如果此应用不兼容，可以下载上面Andriod的版本依次测试
 * [HarmonyOS](https://tx.cec.cc/RDWeb/Pages/downloads/Microsoft_Remote_Desktop_for_HarmonyOS.apk)注：如果此应用不兼容，可以下载上面Andriod的版本依次测试
-* [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)
+* [iOS/iPadOS](https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092)注：如果无法点击下载，请复制以下地址到浏览器打开`https://apps.apple.com/cn/app/microsoft-yuan-cheng-zhuo/id714464092`
 * [macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466)
